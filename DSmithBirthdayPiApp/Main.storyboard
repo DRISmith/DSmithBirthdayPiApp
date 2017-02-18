@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nWP-Xb-gXG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Input Screen-->
+        <scene sceneID="Skz-JR-vbk">
+            <objects>
+                <viewController storyboardIdentifier="InputScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nWP-Xb-gXG" userLabel="Input Screen" customClass="InputViewController" customModule="DSmithBirthdayPiApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jq2-j4-TGS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Avt-r2-43G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3f6-DW-zKn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BirthdayPiSymbol" translatesAutoresizingMaskIntoConstraints="NO" id="S3N-bN-zqq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Or" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="YOP-41-6B7">
+                                <rect key="frame" x="139" y="397" width="19" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="ABP-9z-3g2"/>
+                                    <constraint firstAttribute="width" constant="139" id="lrq-hS-H6X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ABP-9z-3g2"/>
+                                        <exclude reference="lrq-hS-H6X"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ABP-9z-3g2"/>
+                                        <include reference="lrq-hS-H6X"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dBa-Od-kKA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.97647058823529409" blue="0.80000000000000004" alpha="0.70107758620689653" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="xeX-bB-ESi"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Tap Here For An Interesting Pi Fact!">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.024280389292587579" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="20" name="Papyrus"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xeX-bB-ESi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="xeX-bB-ESi"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="piTriviaButton:" destination="nWP-Xb-gXG" eventType="touchUpInside" id="rJF-8m-puV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E3a-Xs-OE2">
+                                <rect key="frame" x="266" y="337" width="69" height="30"/>
+                                <color key="backgroundColor" red="0.99215686274509807" green="0.97254901960784312" blue="0.83529411764705885" alpha="0.70350215517241377" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="BxK-yu-2Ej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="15"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Calculate!">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="0.58431372549019611" green="0.69803921568627447" blue="0.8784313725490196" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                <color key="NSColor" red="0.0" green="0.045587104535126599" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="24" name="Papyrus"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BxK-yu-2Ej"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="BxK-yu-2Ej"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="datePickerButton:" destination="nWP-Xb-gXG" eventType="touchUpInside" id="dHk-g7-hso"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="6va-8F-HEh">
+                                <rect key="frame" x="0.0" y="91" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="491988938.69250602">
+                                    <!--2016-08-04 07:35:38 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUO-Xu-ZRl">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="2Xg-EX-hnt"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pick a Date">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="27" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2Xg-EX-hnt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="2Xg-EX-hnt"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YOP-41-6B7" firstAttribute="top" secondItem="dBa-Od-kKA" secondAttribute="bottom" constant="29" id="0fU-Sq-SVP"/>
+                            <constraint firstItem="dBa-Od-kKA" firstAttribute="top" secondItem="Jq2-j4-TGS" secondAttribute="bottom" id="1GD-FV-Efx"/>
+                            <constraint firstItem="S3N-bN-zqq" firstAttribute="centerX" secondItem="6va-8F-HEh" secondAttribute="centerX" id="1uL-Zc-G3u"/>
+                            <constraint firstItem="dBa-Od-kKA" firstAttribute="centerX" secondItem="YOP-41-6B7" secondAttribute="centerX" id="5x9-X1-4Zj"/>
+                            <constraint firstItem="cUO-Xu-ZRl" firstAttribute="centerX" secondItem="6va-8F-HEh" secondAttribute="centerX" id="GO1-ie-Xhc"/>
+                            <constraint firstItem="Avt-r2-43G" firstAttribute="top" secondItem="E3a-Xs-OE2" secondAttribute="bottom" constant="31" id="HcG-yo-l6s"/>
+                            <constraint firstItem="6va-8F-HEh" firstAttribute="top" secondItem="cUO-Xu-ZRl" secondAttribute="bottom" constant="14" id="MB1-XJ-XQU"/>
+                            <constraint firstItem="S3N-bN-zqq" firstAttribute="top" secondItem="3f6-DW-zKn" secondAttribute="top" id="Qkd-S9-U4T"/>
+                            <constraint firstItem="cUO-Xu-ZRl" firstAttribute="top" secondItem="YOP-41-6B7" secondAttribute="bottom" constant="13" id="U58-gI-xYf"/>
+                            <constraint firstItem="E3a-Xs-OE2" firstAttribute="centerX" secondItem="6va-8F-HEh" secondAttribute="centerX" id="a33-Ek-yei"/>
+                            <constraint firstItem="cUO-Xu-ZRl" firstAttribute="leading" secondItem="3f6-DW-zKn" secondAttribute="leadingMargin" constant="59" id="aZM-G5-pp2"/>
+                            <constraint firstItem="E3a-Xs-OE2" firstAttribute="leading" secondItem="3f6-DW-zKn" secondAttribute="leadingMargin" constant="61" id="bdW-m4-FH6"/>
+                            <constraint firstItem="dBa-Od-kKA" firstAttribute="leading" secondItem="3f6-DW-zKn" secondAttribute="leadingMargin" constant="67" id="c7v-k7-zbw"/>
+                            <constraint firstItem="S3N-bN-zqq" firstAttribute="bottom" secondItem="Avt-r2-43G" secondAttribute="top" id="c8V-bX-oHf"/>
+                            <constraint firstItem="S3N-bN-zqq" firstAttribute="leading" secondItem="3f6-DW-zKn" secondAttribute="leading" id="d73-ng-2Uf"/>
+                            <constraint firstItem="YOP-41-6B7" firstAttribute="centerX" secondItem="cUO-Xu-ZRl" secondAttribute="centerX" id="ehN-e6-qRX"/>
+                            <constraint firstItem="6va-8F-HEh" firstAttribute="leading" secondItem="3f6-DW-zKn" secondAttribute="leadingMargin" constant="-10" id="pSk-f8-dwl"/>
+                            <constraint firstItem="E3a-Xs-OE2" firstAttribute="top" secondItem="6va-8F-HEh" secondAttribute="bottom" constant="24" id="qcq-G9-IIQ"/>
+                            <constraint firstAttribute="trailing" secondItem="S3N-bN-zqq" secondAttribute="trailing" id="zsI-Kb-pfY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="S3N-bN-zqq"/>
+                                <exclude reference="dBa-Od-kKA"/>
+                                <exclude reference="cUO-Xu-ZRl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1uL-Zc-G3u"/>
+                                <exclude reference="Qkd-S9-U4T"/>
+                                <exclude reference="c8V-bX-oHf"/>
+                                <exclude reference="d73-ng-2Uf"/>
+                                <exclude reference="zsI-Kb-pfY"/>
+                                <exclude reference="1GD-FV-Efx"/>
+                                <exclude reference="5x9-X1-4Zj"/>
+                                <exclude reference="c7v-k7-zbw"/>
+                                <exclude reference="0fU-Sq-SVP"/>
+                                <exclude reference="ehN-e6-qRX"/>
+                                <exclude reference="GO1-ie-Xhc"/>
+                                <exclude reference="U58-gI-xYf"/>
+                                <exclude reference="aZM-G5-pp2"/>
+                                <exclude reference="MB1-XJ-XQU"/>
+                                <exclude reference="pSk-f8-dwl"/>
+                                <exclude reference="a33-Ek-yei"/>
+                                <exclude reference="bdW-m4-FH6"/>
+                                <exclude reference="qcq-G9-IIQ"/>
+                                <exclude reference="HcG-yo-l6s"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="S3N-bN-zqq"/>
+                                <include reference="dBa-Od-kKA"/>
+                                <include reference="cUO-Xu-ZRl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1uL-Zc-G3u"/>
+                                <include reference="Qkd-S9-U4T"/>
+                                <include reference="c8V-bX-oHf"/>
+                                <include reference="d73-ng-2Uf"/>
+                                <include reference="zsI-Kb-pfY"/>
+                                <include reference="1GD-FV-Efx"/>
+                                <include reference="5x9-X1-4Zj"/>
+                                <include reference="c7v-k7-zbw"/>
+                                <include reference="0fU-Sq-SVP"/>
+                                <include reference="ehN-e6-qRX"/>
+                                <include reference="GO1-ie-Xhc"/>
+                                <include reference="U58-gI-xYf"/>
+                                <include reference="aZM-G5-pp2"/>
+                                <include reference="MB1-XJ-XQU"/>
+                                <include reference="pSk-f8-dwl"/>
+                                <include reference="a33-Ek-yei"/>
+                                <include reference="bdW-m4-FH6"/>
+                                <include reference="qcq-G9-IIQ"/>
+                                <include reference="HcG-yo-l6s"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="inputDate" destination="6va-8F-HEh" id="Q8r-v2-N8m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uFc-oo-y6c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BirthdayPiSymbol" width="281" height="317"/>
+    </resources>
+</document>

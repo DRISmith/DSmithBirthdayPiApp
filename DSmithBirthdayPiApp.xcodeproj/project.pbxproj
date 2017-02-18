@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0945761D05521E007A8664 /* pi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B0945751D05521E007A8664 /* pi.txt */; };
+		9B8AA94C1D16801E007D0E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8AA94B1D16801E007D0E04 /* Main.storyboard */; };
+		9BC326E51D02BB9F008AC2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC326E41D02BB9F008AC2EC /* AppDelegate.swift */; };
+		9BC326E71D02BB9F008AC2EC /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC326E61D02BB9F008AC2EC /* InputViewController.swift */; };
+		9BC326EC1D02BB9F008AC2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC326EB1D02BB9F008AC2EC /* Assets.xcassets */; };
+		9BC326EF1D02BB9F008AC2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC326ED1D02BB9F008AC2EC /* LaunchScreen.storyboard */; };
+		9BC326FA1D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC326F91D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.swift */; };
+		9BC327051D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC327041D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BC326F61D02BBA0008AC2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC326D91D02BB9F008AC2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC326E01D02BB9F008AC2EC;
+			remoteInfo = DSmithBirthdayPiApp;
+		};
+		9BC327011D02BBA0008AC2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC326D91D02BB9F008AC2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC326E01D02BB9F008AC2EC;
+			remoteInfo = DSmithBirthdayPiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0945751D05521E007A8664 /* pi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pi.txt; sourceTree = "<group>"; };
+		9B8AA94B1D16801E007D0E04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9BC326E11D02BB9F008AC2EC /* DSmithBirthdayPiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSmithBirthdayPiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC326E41D02BB9F008AC2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BC326E61D02BB9F008AC2EC /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		9BC326EB1D02BB9F008AC2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BC326EE1D02BB9F008AC2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BC326F01D02BB9F008AC2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC326F51D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSmithBirthdayPiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC326F91D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSmithBirthdayPiAppTests.swift; sourceTree = "<group>"; };
+		9BC326FB1D02BBA0008AC2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC327001D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSmithBirthdayPiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC327041D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSmithBirthdayPiAppUITests.swift; sourceTree = "<group>"; };
+		9BC327061D02BBA0008AC2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC326DE1D02BB9F008AC2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326F21D02BBA0008AC2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326FD1D02BBA0008AC2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BC326D81D02BB9F008AC2EC = {
+			isa = PBXGroup;
+			children = (
+				9BC326E31D02BB9F008AC2EC /* DSmithBirthdayPiApp */,
+				9BC326F81D02BBA0008AC2EC /* DSmithBirthdayPiAppTests */,
+				9BC327031D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests */,
+				9BC326E21D02BB9F008AC2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC326E21D02BB9F008AC2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC326E11D02BB9F008AC2EC /* DSmithBirthdayPiApp.app */,
+				9BC326F51D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.xctest */,
+				9BC327001D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC326E31D02BB9F008AC2EC /* DSmithBirthdayPiApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B0945751D05521E007A8664 /* pi.txt */,
+				9BC326E41D02BB9F008AC2EC /* AppDelegate.swift */,
+				9BC326E61D02BB9F008AC2EC /* InputViewController.swift */,
+				9BC326EB1D02BB9F008AC2EC /* Assets.xcassets */,
+				9BC326ED1D02BB9F008AC2EC /* LaunchScreen.storyboard */,
+				9B8AA94B1D16801E007D0E04 /* Main.storyboard */,
+				9BC326F01D02BB9F008AC2EC /* Info.plist */,
+			);
+			path = DSmithBirthdayPiApp;
+			sourceTree = "<group>";
+		};
+		9BC326F81D02BBA0008AC2EC /* DSmithBirthdayPiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC326F91D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.swift */,
+				9BC326FB1D02BBA0008AC2EC /* Info.plist */,
+			);
+			path = DSmithBirthdayPiAppTests;
+			sourceTree = "<group>";
+		};
+		9BC327031D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC327041D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.swift */,
+				9BC327061D02BBA0008AC2EC /* Info.plist */,
+			);
+			path = DSmithBirthdayPiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BC326E01D02BB9F008AC2EC /* DSmithBirthdayPiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC327091D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiApp" */;
+			buildPhases = (
+				9BC326DD1D02BB9F008AC2EC /* Sources */,
+				9BC326DE1D02BB9F008AC2EC /* Frameworks */,
+				9BC326DF1D02BB9F008AC2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSmithBirthdayPiApp;
+			productName = DSmithBirthdayPiApp;
+			productReference = 9BC326E11D02BB9F008AC2EC /* DSmithBirthdayPiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BC326F41D02BBA0008AC2EC /* DSmithBirthdayPiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC3270C1D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiAppTests" */;
+			buildPhases = (
+				9BC326F11D02BBA0008AC2EC /* Sources */,
+				9BC326F21D02BBA0008AC2EC /* Frameworks */,
+				9BC326F31D02BBA0008AC2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC326F71D02BBA0008AC2EC /* PBXTargetDependency */,
+			);
+			name = DSmithBirthdayPiAppTests;
+			productName = DSmithBirthdayPiAppTests;
+			productReference = 9BC326F51D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BC326FF1D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC3270F1D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiAppUITests" */;
+			buildPhases = (
+				9BC326FC1D02BBA0008AC2EC /* Sources */,
+				9BC326FD1D02BBA0008AC2EC /* Frameworks */,
+				9BC326FE1D02BBA0008AC2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC327021D02BBA0008AC2EC /* PBXTargetDependency */,
+			);
+			name = DSmithBirthdayPiAppUITests;
+			productName = DSmithBirthdayPiAppUITests;
+			productReference = 9BC327001D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC326D91D02BB9F008AC2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Smith";
+				TargetAttributes = {
+					9BC326E01D02BB9F008AC2EC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B44N4LLV6Q;
+						LastSwiftMigration = 0810;
+					};
+					9BC326F41D02BBA0008AC2EC = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
+						TestTargetID = 9BC326E01D02BB9F008AC2EC;
+					};
+					9BC326FF1D02BBA0008AC2EC = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
+						TestTargetID = 9BC326E01D02BB9F008AC2EC;
+					};
+				};
+			};
+			buildConfigurationList = 9BC326DC1D02BB9F008AC2EC /* Build configuration list for PBXProject "DSmithBirthdayPiApp" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BC326D81D02BB9F008AC2EC;
+			productRefGroup = 9BC326E21D02BB9F008AC2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BC326E01D02BB9F008AC2EC /* DSmithBirthdayPiApp */,
+				9BC326F41D02BBA0008AC2EC /* DSmithBirthdayPiAppTests */,
+				9BC326FF1D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BC326DF1D02BB9F008AC2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0945761D05521E007A8664 /* pi.txt in Resources */,
+				9BC326EF1D02BB9F008AC2EC /* LaunchScreen.storyboard in Resources */,
+				9BC326EC1D02BB9F008AC2EC /* Assets.xcassets in Resources */,
+				9B8AA94C1D16801E007D0E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326F31D02BBA0008AC2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326FE1D02BBA0008AC2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BC326DD1D02BB9F008AC2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC326E71D02BB9F008AC2EC /* InputViewController.swift in Sources */,
+				9BC326E51D02BB9F008AC2EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326F11D02BBA0008AC2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC326FA1D02BBA0008AC2EC /* DSmithBirthdayPiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC326FC1D02BBA0008AC2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC327051D02BBA0008AC2EC /* DSmithBirthdayPiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BC326F71D02BBA0008AC2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC326E01D02BB9F008AC2EC /* DSmithBirthdayPiApp */;
+			targetProxy = 9BC326F61D02BBA0008AC2EC /* PBXContainerItemProxy */;
+		};
+		9BC327021D02BBA0008AC2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC326E01D02BB9F008AC2EC /* DSmithBirthdayPiApp */;
+			targetProxy = 9BC327011D02BBA0008AC2EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BC326ED1D02BB9F008AC2EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC326EE1D02BB9F008AC2EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BC327071D02BBA0008AC2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BC327081D02BBA0008AC2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BC3270A1D02BBA0008AC2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DSmithBirthdayPiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Birthday-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BC3270B1D02BBA0008AC2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DSmithBirthdayPiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Birthday-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BC3270D1D02BBA0008AC2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DSmithBirthdayPiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DRS.DSmithBirthdayPiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSmithBirthdayPiApp.app/DSmithBirthdayPiApp";
+			};
+			name = Debug;
+		};
+		9BC3270E1D02BBA0008AC2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DSmithBirthdayPiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DRS.DSmithBirthdayPiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSmithBirthdayPiApp.app/DSmithBirthdayPiApp";
+			};
+			name = Release;
+		};
+		9BC327101D02BBA0008AC2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DSmithBirthdayPiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DRS.DSmithBirthdayPiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DSmithBirthdayPiApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9BC327111D02BBA0008AC2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DSmithBirthdayPiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DRS.DSmithBirthdayPiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DSmithBirthdayPiApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC326DC1D02BB9F008AC2EC /* Build configuration list for PBXProject "DSmithBirthdayPiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC327071D02BBA0008AC2EC /* Debug */,
+				9BC327081D02BBA0008AC2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC327091D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3270A1D02BBA0008AC2EC /* Debug */,
+				9BC3270B1D02BBA0008AC2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC3270C1D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC3270D1D02BBA0008AC2EC /* Debug */,
+				9BC3270E1D02BBA0008AC2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC3270F1D02BBA0008AC2EC /* Build configuration list for PBXNativeTarget "DSmithBirthdayPiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC327101D02BBA0008AC2EC /* Debug */,
+				9BC327111D02BBA0008AC2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BC326D91D02BB9F008AC2EC /* Project object */;
+}
